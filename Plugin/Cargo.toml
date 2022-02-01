@@ -1,0 +1,13 @@
+[package]
+name = "unity-bardecoder"
+version = "0.1.0"
+authors = ["Keijiro Takahashi <keijiro@gmail.com>"]
+edition = "2021"
+
+[lib]
+name = "bardecoder"
+crate-type = ["cdylib"]
+
+[dependencies]
+bardecoder = "0.3.0"
+image = "0.23"
